@@ -1,4 +1,4 @@
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.png)
 
 # Slotcar Leaderboard
 
