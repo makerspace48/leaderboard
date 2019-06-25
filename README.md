@@ -1,3 +1,5 @@
+![Screenshot](screenshot.jpg)
+
 # Slotcar Leaderboard
 
 A simple lap counter & timer for [Slot cars](https://en.wikipedia.org/wiki/Slot_car):
