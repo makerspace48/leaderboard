@@ -8,10 +8,11 @@ void setup() {
   lapTimes[0] = new ArrayList<Integer>();
   lapTimes[1] = new ArrayList<Integer>();
   //on some macbook:
-  myPort = new Serial(this, "/dev/tty.wchusbserial1410", 9600);
+  //myPort = new Serial(this, "/dev/serial1", 9600);
   //on some windows laptop:
-  myPort = new Serial(this, "COM5", 9600);
-  
+  //myPort = new Serial(this, "COM5", 9600);
+  //on Raspberry Pi:
+  myPort = new Serial(this, "/dev/serial1", 9600); //change this to actual device.
   background(0);
   size(1200, 800);
   noStroke();
