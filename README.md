@@ -40,3 +40,19 @@ void setup() {
 ## Improvements
 
 We're going to 3D modal a starting block that you should be able to print and attach sensors. This should help integrate the lap counter with the Slot Cars, so everything feels warmer on the inside.
+
+## Running on Raspberry Pi
+Following is enaugh to get it working on a Raspberry Pi with stock Raspbian:
+```
+git clone https://github.com/makerspace48/leaderboard.git
+curl https://processing.org/download/install-arm.sh | sudo sh
+```
+Then in the user dir:
+```
+processing leaderboard\leaderboard.pde
+```
+Processing should open the sketch. Paste your serial device in line 11
+```
+ myPort = new Serial(this, "/dev/tty.wchusbserial1410", 9600);
+ ```
+ And click the run button. Enjoy your race.
